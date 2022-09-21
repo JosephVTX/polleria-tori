@@ -13,7 +13,7 @@ export const Nav = ({menuArr}) => {
     <>
         <nav className={`nav h-[100px]  font-antique-olive-condensed lg:flex relative lg:justify-end bg-[#E2AC26] lg:h-[120px] items-center`}>
 
-            <img className='block lg:hidden h-[80px]  left-[50%] translate-x-[-50%] translate-y-[-50%] top-[50%] ' src="https://images.squarespace-cdn.com/content/v1/604f63fbcbfeea1a501c8b6b/1616606622243-ARYES93KR5NF1YZEGNJM/logo?format=1000w"/>
+            <img className='block lg:hidden h-[80px]  absolute left-[50%] translate-x-[-50%] translate-y-[-50%] top-[50%] ' src="https://images.squarespace-cdn.com/content/v1/604f63fbcbfeea1a501c8b6b/1616606622243-ARYES93KR5NF1YZEGNJM/logo?format=1000w"/>
             <img className='hidden lg:block h-[80px] absolute lg:left-[50%] lg:translate-x-[-50%] z-[1000]' src="https://images.squarespace-cdn.com/content/v1/604f63fbcbfeea1a501c8b6b/1615830557138-G9XTCBQ8JKFUZP89Y6OG/LOGO+2+ROJO.png"/>
             <img onClick={toggleMenu} src={menu_icon} className="h-[30px] absolute translate-y-[-50%] top-[50%] left-[30px] lg:hidden" />
             
