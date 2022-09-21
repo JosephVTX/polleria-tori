@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: ThunderhousePro;
+    src: url("fonts/thunderhouse-pro.ttf");
+}
+@font-face {
+    font-family: antique-olive-condensed;
+    src: url("fonts/antique-olive-condensed.otf");
+}
